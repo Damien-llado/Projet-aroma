@@ -1,0 +1,70 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nous contacter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="plante.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="plante.ico" />
+</head>
+<body>
+<!--Mise en place de la navbar-->
+
+    <nav>
+        <img class="nav-image" src="plante.png" alt="logo-plante-aroma-for-you">
+        <span>Aroma <br>for <br>YOU</span>
+        <div class="selecteur">
+            <a href="nos-gammes.html">Nos gammes</a>
+            <a href="nos-produits.html">Nos produits</a>
+            <a href="sur-mesure.html">Sur mesure</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html"><u>Contact</u></a>
+        </div>
+        <div class="section-compte">
+            <a href="mon-compte.html">Mon compte</a>
+            <a href="panier.html">Panier</a>
+        </div>
+    </nav>
+
+<!--Mise en place du bloc de contact-->
+
+    <section class="contact" >
+        <div class="info-aromaforyou">
+            <div>
+                <h3>Adresse postale</h3>
+                <p>2 rue de la feuille</p>
+                <p>69003 Lyon</p>
+            </div>
+            <div>
+                <h3>Mail</h3>
+                <p>contact@aromaforyou.fr</p>
+            </div>
+            <div>
+                <h3>Téléphone</h3>
+                <p>06.06.70.80.90</p>
+            </div>
+        </div>
+
+        <div class="ligne">     <!--Ligne séparatrice entre les infos et le formulaire-->
+        </div>
+
+        <div class="formulaire">
+            <form action="" method="get" class="form-contact">
+                <div>
+                    <input type="text" name="nom" value="Nom et prénom" onFocus="this.value='';">
+                </div>
+                <div>
+                    <input type="text" name="mail" value="Adresse mail" onFocus="this.value='';">
+                </div>
+                <div>
+                    <input type="text" name="sujet" value="Sujet du message" onFocus="this.value='';">
+                </div>
+                <div>
+                    <textarea type="text" name="message" maxlength="600"></textarea>
+                </div> 
+            </form>
+            <div class="envoyer">
+                <button type="submit">Envoyer votre message</button>
+            </div>   
+        </div>
+    </section>

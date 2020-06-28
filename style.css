@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+html 
+{
+    font-family: 'PT Serif', serif;
+}
+
+body
+{
+    margin: 0;
+}
+
+
+/* Mise en forme de la page principale */
+
+.main
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(main2.jpg);
+}
+
+.sub-main
+{
+    width: 70%;
+    margin: auto;
+    padding-top: 25vh;
+}
+
+.sub-main h1
+{
+    color: white;
+    font-size: 50;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);;
+}
+
+
+/* Mise en forme de la navbar main */
+
+.nav-main 
+{
+    background-color: #B9DBBF;
+    height: 120px;
+    border-radius: 125px ;
+    margin-top: 100px;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 3px 6px black;;
+}
+
+.main-image
+{
+    width: 100px;
+    height: 100px;
+    padding : 10px 0 10px 10px
+}
+
+.nav-main span
+{
+    font-size: 27;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.main a
+{
+    color : #393939 ;
+    text-decoration: none;
+    font-size : 25 ;    
+    padding-left: 40px;
+}
+
+.main a:hover 
+{
+    color: #868686;
+}
+
+.main a:active
+{
+    color: #686868
+}
+
+.selecteur-main
+{
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+}
+
+/* --------------------------Changement de page---------------------------*/
+
+/* Mise en forme générale */
+
+section
+{
+    width: 60%;
+    margin : 0 auto ;
+    background-color: #EEEEEE;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+}
+
+span, h2, p
+{
+    color: #393939;
+}
+
+
+/* Mise en forme de la page "Nos gammes"
+
+ Mise en forme de la navbar en commençant par la partie selecteur */
+
+nav
+{
+    background-color: #B9DBBF;
+    height: 100px;
+    position: sticky;
+    /* A activer pour avoir un menu fixe
+    top : 0px ; */
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.418);;
+}
+
+.nav-image
+{
+    width: 80px;
+    height: 80px;
+    padding : 10px 0 10px 10px
+}
+nav span
+{
+    font-size: 23;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.selecteur
+{
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;  
+    justify-content: space-between; 
+    width: 55%;
+}
+
+nav a
+{
+    color : #393939 ;
+    text-decoration: none;
+    font-size : 30 ;    
+}
+
+nav a:hover 
+{
+    color: #868686;
+    text-decoration: underline;
+}
+
+nav a:active
+{
+    color: #686868
+}
+
+/* Mise en forme de la section compte/panier de la navbar */
+
+.section-compte
+{
+    margin-top: 30px;
+    margin-left: 150px;
+    display: flex;  
+    justify-content: space-evenly; 
+    width: 20%;
+}
+
+
+/* Mise en forme des sections de gammes */
+
+/* Mise en forme du bouton "voir plus" */
+
+.voir
+{
+    float: right;
+    width: 90px ;
+    height: 45px;
+    margin-top: -60px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 45px ;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.26);
+}
+
+.voir a
+{
+    text-decoration: none;
+    color : #393939 ;
+}
+.voir div
+{
+    padding-left: 13px;
+    padding-top: 10px;
+}
+
+.voir:hover
+{
+    background-color: #B9DBBF;
+}
+
+.voir:active
+{
+    box-shadow: inset;
+    background-color: #93b699;
+}
+
+
+/* Mise en forme des titres des sections */
+
+section h2
+{
+    padding-left : 30px;
+    padding-top: 20px;
+}
+
+/* Mise en forme des miniatures */
+
+.bloc-miniature
+{
+    display: flex;
+    margin-top : 20px ;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.bloc-miniature img
+{
+    width: 300px;
+    height: 300px;
+}
+
+
+.miniature
+{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.26);
+    margin-bottom: 20px;
+ }
+
+.bloc-miniature p
+{
+    text-align: center;
+}
+
+.prix
+{
+    border: solid #B9DBBF;
+    background-color: white;
+}
+
+/* Mise en forme du selecteur à ancre */
+
+.selecteur-gamme
+{
+    background-color: #B9DBBF;
+    border-radius: 30px;
+    position: fixed;
+    top: 200px;
+    left: 0px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.26);
+}
+
+.selecteur-gamme a
+{
+    text-decoration: none;
+    color: #393939;
+    font-size: 20;
+    text-align: center;
+}
+
+.selecteur-gamme a:hover
+{
+    color: #868686;
+    text-decoration: underline;
+}
+
+.selecteur-gamme a:active
+{
+    color: #686868 ;
+    text-decoration: underline;
+}
+
+.selecteur-gamme div
+{
+    padding: 13px 25px;
+}
+
+
+/*----------------Mise en forme de la page Nos produits------------------ */
+
+/* Mise en forme du catalogue */
+
+.catalogue .bloc-miniature
+{
+    padding-top: 20px;
+    flex-wrap: wrap ;
+}
+
+/*---------------Mise en forme de la page Sur mesure-----------------*/
+
+.section-sur-mesure
+{
+    margin-bottom: 40px;
+}
+
+
+/* Mise en forme de la partie "a propos" */
+
+.bloc-general h2
+{
+    padding-left: 70px;
+    padding-right: 50px;
+    text-decoration: underline;
+}
+
+.bloc-general p
+{
+    padding: 0 70px ;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+/* Mise en forme de la partie question */
+
+.question p
+{
+    padding: 0 70px ;
+    text-align: justify;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: 20;
+    font-weight: 600;
+}
+
+.reponse
+{
+    padding-left: 70px;
+    margin-top: -20px;
+}
+
+.reponse div
+{
+    margin-bottom: 10px ;
+}
+
+.reponse label
+{
+    font-size: 17;
+}
+
+.accepte
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-left: 60%;
+    margin-top: -20px;
+}
+
+.accepte label
+{
+    font-size: 20;
+}
+
+button
+{
+    font-size: 20;
+    background-color: #B9DBBF;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-family: 'PT Serif', serif;
+    margin-left: 16%;
+    border: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.199)    
+}
+
+button:hover
+{
+    background-color: #92ac97;
+}
+
+button:active
+{
+    background-color: #B9DBBF;
+}
+
+
+/*-----------------------Mise en forme de la page blog----------------*/
+
+.article
+{
+   height: 350px;
+   margin-bottom: 30px;
+}
+
+.article a
+{
+    text-decoration: none;
+}
+
+.article h2
+{
+    padding-left: 70px;
+    padding-right: 50px;
+    text-decoration: underline;
+}
+
+.article p
+{
+    padding: 0 70px ;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+.article1
+{
+    background-image: url(article1.jpg) ;
+    background-position: center;
+}
+
+.article2
+{
+    background-image: url(article2.jpg) ;
+    background-position: center;
+}
+
+/*----------------Mise en forme de la page contact------------*/
+
+.contact
+{
+    margin-top: 60px;
+    display:  flex;
+    flex-direction: row;
+    width: 52%;
+}
+
+.info-aromaforyou
+{
+    padding: 50px 50px 50px 60px;
+}
+
+.info-aromaforyou div
+{
+    padding-bottom: 5px;
+}
+
+
+.ligne
+{
+    margin: 35px 0;
+    height: 430px;
+    width: 2px;
+    background-color: #707070;
+}
+
+
+/* Mise en forme du formulaire de contact */
+
+
+.form-contact div
+{
+    margin-bottom: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.096)
+}
+
+.formulaire input
+{
+    border : none ;
+    font-family: 'PT Serif', serif;
+    width: 600px;
+    font-size: 18 ;
+    color: grey;
+    border-radius: 5px ;
+}
+
+.formulaire
+{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+textarea
+{
+    width: 600px;
+    height: 240px;
+    border: none;
+}
+
+.envoyer
+{
+    margin-left: 311px;
+    margin-bottom: 20px;
+}
